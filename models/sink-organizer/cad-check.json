@@ -1,0 +1,438 @@
+{
+  "document": "Sink Organizer B - R01 PROTOTYPE",
+  "features": 884,
+  "bodies": [
+    {
+      "name": "LS_Foot_01/LS_Foot_01",
+      "solid": true,
+      "volume_mm3": 5216.0,
+      "size_mm": [
+        16.0,
+        16.0,
+        21.5
+      ]
+    },
+    {
+      "name": "LS_Foot_10/LS_Foot_10",
+      "solid": true,
+      "volume_mm3": 5216.0,
+      "size_mm": [
+        16.0,
+        16.0,
+        21.5
+      ]
+    },
+    {
+      "name": "LS_Foot_11/LS_Foot_11",
+      "solid": true,
+      "volume_mm3": 5216.0,
+      "size_mm": [
+        16.0,
+        16.0,
+        21.5
+      ]
+    },
+    {
+      "name": "RS_DrainPan/RS_DrainPan",
+      "solid": true,
+      "volume_mm3": 153965.59,
+      "size_mm": [
+        115.0,
+        180.0,
+        20.0
+      ]
+    },
+    {
+      "name": "RS_RemovableGrate/RS_RemovableGrate",
+      "solid": true,
+      "volume_mm3": 40934.24,
+      "size_mm": [
+        83.4,
+        173.4,
+        4.0
+      ]
+    },
+    {
+      "name": "RS_Foot_00/RS_Foot_00",
+      "solid": true,
+      "volume_mm3": 5216.0,
+      "size_mm": [
+        16.0,
+        16.0,
+        21.5
+      ]
+    },
+    {
+      "name": "RS_Foot_01/RS_Foot_01",
+      "solid": true,
+      "volume_mm3": 5216.0,
+      "size_mm": [
+        16.0,
+        16.0,
+        21.5
+      ]
+    },
+    {
+      "name": "RS_Foot_10/RS_Foot_10",
+      "solid": true,
+      "volume_mm3": 5216.0,
+      "size_mm": [
+        16.0,
+        16.0,
+        21.5
+      ]
+    },
+    {
+      "name": "RS_Foot_11/RS_Foot_11",
+      "solid": true,
+      "volume_mm3": 5216.0,
+      "size_mm": [
+        16.0,
+        16.0,
+        21.5
+      ]
+    },
+    {
+      "name": "UP_DrainPan/UP_DrainPan",
+      "solid": true,
+      "volume_mm3": 154267.99,
+      "size_mm": [
+        180.0,
+        115.0,
+        20.0
+      ]
+    },
+    {
+      "name": "UP_RemovableGrate/UP_RemovableGrate",
+      "solid": true,
+      "volume_mm3": 40934.24,
+      "size_mm": [
+        173.4,
+        83.4,
+        4.0
+      ]
+    },
+    {
+      "name": "Tower_SideFrame_1/Tower_SideFrame_1",
+      "solid": true,
+      "volume_mm3": 32523.0,
+      "size_mm": [
+        8.0,
+        90.0,
+        126.5
+      ]
+    },
+    {
+      "name": "Tower_SideFrame_2/Tower_SideFrame_2",
+      "solid": true,
+      "volume_mm3": 32523.0,
+      "size_mm": [
+        8.0,
+        90.0,
+        126.5
+      ]
+    },
+    {
+      "name": "FIT_Tight/FIT_Tight",
+      "solid": true,
+      "volume_mm3": 2176.99,
+      "size_mm": [
+        24.0,
+        24.0,
+        4.0
+      ]
+    },
+    {
+      "name": "FIT_Nominal/FIT_Nominal",
+      "solid": true,
+      "volume_mm3": 2173.95,
+      "size_mm": [
+        24.0,
+        24.0,
+        4.0
+      ]
+    },
+    {
+      "name": "FIT_Loose/FIT_Loose",
+      "solid": true,
+      "volume_mm3": 2170.87,
+      "size_mm": [
+        24.0,
+        24.0,
+        4.0
+      ]
+    },
+    {
+      "name": "R2_Foot_01/R2_Foot_01",
+      "solid": true,
+      "volume_mm3": 5216.0,
+      "size_mm": [
+        16.0,
+        16.0,
+        21.5
+      ]
+    },
+    {
+      "name": "R2_Foot_10/R2_Foot_10",
+      "solid": true,
+      "volume_mm3": 5216.0,
+      "size_mm": [
+        16.0,
+        16.0,
+        21.5
+      ]
+    },
+    {
+      "name": "R2_Foot_11/R2_Foot_11",
+      "solid": true,
+      "volume_mm3": 5216.0,
+      "size_mm": [
+        16.0,
+        16.0,
+        21.5
+      ]
+    },
+    {
+      "name": "LS_DrainPan/LS_DrainPan",
+      "solid": true,
+      "volume_mm3": 218978.7,
+      "size_mm": [
+        145.0,
+        180.0,
+        20.0
+      ]
+    },
+    {
+      "name": "LS_RemovableGrate/LS_RemovableGrate",
+      "solid": true,
+      "volume_mm3": 54542.24,
+      "size_mm": [
+        113.4,
+        173.4,
+        4.0
+      ]
+    },
+    {
+      "name": "LS_Foot_00/LS_Foot_00",
+      "solid": true,
+      "volume_mm3": 5216.0,
+      "size_mm": [
+        16.0,
+        16.0,
+        21.5
+      ]
+    },
+    {
+      "name": "L1_RemovableGrate/L1_RemovableGrate",
+      "solid": true,
+      "volume_mm3": 36483.04,
+      "size_mm": [
+        153.4,
+        83.4,
+        4.0
+      ]
+    },
+    {
+      "name": "L1_DrainPan/L1_DrainPan",
+      "solid": true,
+      "volume_mm3": 138302.19,
+      "size_mm": [
+        160.0,
+        115.0,
+        20.0
+      ]
+    },
+    {
+      "name": "L1_Foot_00/L1_Foot_00",
+      "solid": true,
+      "volume_mm3": 5216.0,
+      "size_mm": [
+        16.0,
+        16.0,
+        21.5
+      ]
+    },
+    {
+      "name": "L1_Foot_01/L1_Foot_01",
+      "solid": true,
+      "volume_mm3": 5216.0,
+      "size_mm": [
+        16.0,
+        16.0,
+        21.5
+      ]
+    },
+    {
+      "name": "L1_Foot_10/L1_Foot_10",
+      "solid": true,
+      "volume_mm3": 5216.0,
+      "size_mm": [
+        16.0,
+        16.0,
+        21.5
+      ]
+    },
+    {
+      "name": "L1_Foot_11/L1_Foot_11",
+      "solid": true,
+      "volume_mm3": 5216.0,
+      "size_mm": [
+        16.0,
+        16.0,
+        21.5
+      ]
+    },
+    {
+      "name": "L2_DrainPan/L2_DrainPan",
+      "solid": true,
+      "volume_mm3": 168062.64,
+      "size_mm": [
+        198.0,
+        115.0,
+        20.0
+      ]
+    },
+    {
+      "name": "L2_RemovableGrate/L2_RemovableGrate",
+      "solid": true,
+      "volume_mm3": 44718.24,
+      "size_mm": [
+        191.4,
+        83.4,
+        4.0
+      ]
+    },
+    {
+      "name": "L2_Foot_00/L2_Foot_00",
+      "solid": true,
+      "volume_mm3": 5216.0,
+      "size_mm": [
+        16.0,
+        16.0,
+        21.5
+      ]
+    },
+    {
+      "name": "L2_Foot_01/L2_Foot_01",
+      "solid": true,
+      "volume_mm3": 5216.0,
+      "size_mm": [
+        16.0,
+        16.0,
+        21.5
+      ]
+    },
+    {
+      "name": "L2_Foot_10/L2_Foot_10",
+      "solid": true,
+      "volume_mm3": 5216.0,
+      "size_mm": [
+        16.0,
+        16.0,
+        21.5
+      ]
+    },
+    {
+      "name": "L2_Foot_11/L2_Foot_11",
+      "solid": true,
+      "volume_mm3": 5216.0,
+      "size_mm": [
+        16.0,
+        16.0,
+        21.5
+      ]
+    },
+    {
+      "name": "R1_RemovableGrate/R1_RemovableGrate",
+      "solid": true,
+      "volume_mm3": 30030.24,
+      "size_mm": [
+        127.4,
+        83.4,
+        4.0
+      ]
+    },
+    {
+      "name": "R1_DrainPan/R1_DrainPan",
+      "solid": true,
+      "volume_mm3": 117939.78,
+      "size_mm": [
+        134.0,
+        115.0,
+        20.0
+      ]
+    },
+    {
+      "name": "R1_Foot_00/R1_Foot_00",
+      "solid": true,
+      "volume_mm3": 5216.0,
+      "size_mm": [
+        16.0,
+        16.0,
+        21.5
+      ]
+    },
+    {
+      "name": "R1_Foot_01/R1_Foot_01",
+      "solid": true,
+      "volume_mm3": 5216.0,
+      "size_mm": [
+        16.0,
+        16.0,
+        21.5
+      ]
+    },
+    {
+      "name": "R1_Foot_10/R1_Foot_10",
+      "solid": true,
+      "volume_mm3": 5216.0,
+      "size_mm": [
+        16.0,
+        16.0,
+        21.5
+      ]
+    },
+    {
+      "name": "R1_Foot_11/R1_Foot_11",
+      "solid": true,
+      "volume_mm3": 5216.0,
+      "size_mm": [
+        16.0,
+        16.0,
+        21.5
+      ]
+    },
+    {
+      "name": "R2_RemovableGrate/R2_RemovableGrate",
+      "solid": true,
+      "volume_mm3": 30030.24,
+      "size_mm": [
+        127.4,
+        83.4,
+        4.0
+      ]
+    },
+    {
+      "name": "R2_DrainPan/R2_DrainPan",
+      "solid": true,
+      "volume_mm3": 117944.95,
+      "size_mm": [
+        134.0,
+        115.0,
+        20.0
+      ]
+    },
+    {
+      "name": "R2_Foot_00/R2_Foot_00",
+      "solid": true,
+      "volume_mm3": 5216.0,
+      "size_mm": [
+        16.0,
+        16.0,
+        21.5
+      ]
+    }
+  ],
+  "issues": [],
+  "underconstrained": []
+}

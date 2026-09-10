@@ -1,0 +1,377 @@
+{
+  "source_revision": "R03",
+  "slicer": "Bambu Studio 02.08.02.61",
+  "printer": "Bambu Lab X2D 0.4 nozzle",
+  "filament": "Generic PETG @BBL X2D 0.4 nozzle",
+  "plate": "Bambu Cool Plate SuperTack",
+  "production_pieces": 13,
+  "production_plates": 6,
+  "all_layers_audited": 4450,
+  "geometry_roundtrip": true,
+  "no_mesh_repairs": true,
+  "all_objects_on_bed": true,
+  "no_extrusion_outside_256_square": true,
+  "main_extruder_only": true,
+  "physically_tested": false,
+  "production_estimated_seconds": 99926,
+  "production_estimated_grams": 995.47,
+  "path_audit_scope": "0.2 mm raster against model sections, with line width tolerance: no whole component missing and no out-of-bed extrusion. Six abrupt boundary layers flagged by single-plane comparison; same plus preceding 0.2 mm model layer fully covers perimeter and skin. These local end-face positions need normal layer-height tolerance; not proof of precise CAD surface replication, watertightness, strength or physical support removal.",
+  "transition_reviews": [
+    {
+      "plate": "01_Tower",
+      "z": 3.0,
+      "review": "Compare same and preceding model layer at abrupt section transitions",
+      "uncovered_perimeter_mm2": 0.0,
+      "uncovered_skin_mm2": 0.0
+    },
+    {
+      "plate": "01_Tower",
+      "z": 87.0,
+      "review": "Compare same and preceding model layer at abrupt section transitions",
+      "uncovered_perimeter_mm2": 0.0,
+      "uncovered_skin_mm2": 0.0
+    },
+    {
+      "plate": "02_L2",
+      "z": 87.0,
+      "review": "Compare same and preceding model layer at abrupt section transitions",
+      "uncovered_perimeter_mm2": 0.0,
+      "uncovered_skin_mm2": 0.0
+    },
+    {
+      "plate": "03_R1",
+      "z": 87.0,
+      "review": "Compare same and preceding model layer at abrupt section transitions",
+      "uncovered_perimeter_mm2": 0.0,
+      "uncovered_skin_mm2": 0.0
+    },
+    {
+      "plate": "04_R2",
+      "z": 87.0,
+      "review": "Compare same and preceding model layer at abrupt section transitions",
+      "uncovered_perimeter_mm2": 0.0,
+      "uncovered_skin_mm2": 0.0
+    },
+    {
+      "plate": "05_LS",
+      "z": 117.0,
+      "review": "Compare same and preceding model layer at abrupt section transitions",
+      "uncovered_perimeter_mm2": 0.0,
+      "uncovered_skin_mm2": 0.0
+    }
+  ],
+  "bridge_audit": {
+    "scope": "Sampling bridge paths at 0.1mm against extrusion footprints within 0.4mm below; raster 0.2mm. Indicative air-gap check, not bridge sag or adhesion prediction.",
+    "plates": [
+      {
+        "plate": "01_Tower",
+        "largest_sampled_unsupported_bridge_run_mm": 10.4,
+        "location": [
+          75.2,
+          [
+            49.955,
+            127.892
+          ],
+          [
+            61.658,
+            127.892
+          ]
+        ]
+      },
+      {
+        "plate": "02_L2",
+        "largest_sampled_unsupported_bridge_run_mm": 9.81,
+        "location": [
+          75.2,
+          [
+            30.342,
+            28.486
+          ],
+          [
+            42.658,
+            28.486
+          ]
+        ]
+      },
+      {
+        "plate": "03_R1",
+        "largest_sampled_unsupported_bridge_run_mm": 9.01,
+        "location": [
+          75.2,
+          [
+            74.658,
+            67.424
+          ],
+          [
+            62.342,
+            67.424
+          ]
+        ]
+      },
+      {
+        "plate": "04_R2",
+        "largest_sampled_unsupported_bridge_run_mm": 9.01,
+        "location": [
+          75.2,
+          [
+            193.658,
+            74.798
+          ],
+          [
+            181.342,
+            74.798
+          ]
+        ]
+      },
+      {
+        "plate": "05_LS",
+        "largest_sampled_unsupported_bridge_run_mm": 9.21,
+        "location": [
+          105.2,
+          [
+            51.658,
+            52.424
+          ],
+          [
+            39.342,
+            52.424
+          ]
+        ]
+      },
+      {
+        "plate": "06_RS",
+        "largest_sampled_unsupported_bridge_run_mm": 9.21,
+        "location": [
+          75.2,
+          [
+            51.658,
+            67.424
+          ],
+          [
+            39.342,
+            67.424
+          ]
+        ]
+      }
+    ]
+  },
+  "warnings": "Official X2D template T65279/T65535 retained; local estimator reports invalid T for these vendor end commands. No new physical print was sent.",
+  "plates": [
+    {
+      "plate": "01_Tower",
+      "objects": 2,
+      "layers": 711,
+      "estimated_seconds": 26893,
+      "estimated_grams": 286.02,
+      "support": true,
+      "support_bounds_mm": [
+        [
+          38.81044684060227,
+          4.558
+        ],
+        [
+          217.19,
+          136.135
+        ]
+      ],
+      "feature_path_length_mm": {
+        "Brim": 16725.22,
+        "Outer wall": 612062.49,
+        "Inner wall": 1218338.7,
+        "Bottom surface": 28275.14,
+        "Support interface": 2373.37,
+        "Support": 46198.05,
+        "Gap infill": 8606.91,
+        "Internal solid infill": 223761.45,
+        "Overhang wall": 374.8,
+        "Sparse infill": 693123.98,
+        "Floating vertical shell": 10233.27,
+        "Bridge": 34134.09,
+        "Top surface": 42879.87,
+        "Support transition": 556.26
+      },
+      "longest_bridge_segment_mm": 23.23,
+      "sha256": "69da72d44f4f935cb49085dd16351ceea05ce4047ad22e4debb421de00fd00d0"
+    },
+    {
+      "plate": "02_L2",
+      "objects": 3,
+      "layers": 696,
+      "estimated_seconds": 18366,
+      "estimated_grams": 178.64,
+      "support": true,
+      "support_bounds_mm": [
+        [
+          30.179,
+          14.299
+        ],
+        [
+          225.821,
+          34.6
+        ]
+      ],
+      "feature_path_length_mm": {
+        "Brim": 15726.04,
+        "Outer wall": 348129.15,
+        "Inner wall": 685384.97,
+        "Bottom surface": 33696.77,
+        "Support interface": 979.26,
+        "Gap infill": 8779.36,
+        "Internal solid infill": 272554.03,
+        "Overhang wall": 189.53,
+        "Sparse infill": 341709.8,
+        "Floating vertical shell": 10463.58,
+        "Bridge": 38753.63,
+        "Top surface": 55585.62,
+        "Support": 19179.61,
+        "Support transition": 228.26
+      },
+      "longest_bridge_segment_mm": 23.56,
+      "sha256": "026dee1b51585c2f401dd9e2f0864c52ac8fe9cd6e57d524acdd8eee13df8b96"
+    },
+    {
+      "plate": "03_R1",
+      "objects": 2,
+      "layers": 696,
+      "estimated_seconds": 11304,
+      "estimated_grams": 106.87,
+      "support": true,
+      "support_bounds_mm": [
+        [
+          62.22,
+          60.991
+        ],
+        [
+          193.78,
+          81.47
+        ]
+      ],
+      "feature_path_length_mm": {
+        "Brim": 8188.79,
+        "Outer wall": 221788.98,
+        "Inner wall": 436541.84,
+        "Bottom surface": 14681.05,
+        "Support interface": 929.56,
+        "Gap infill": 8575.2,
+        "Internal solid infill": 118587.33,
+        "Overhang wall": 189.53,
+        "Sparse infill": 217775.12,
+        "Floating vertical shell": 6069.25,
+        "Bridge": 17570.03,
+        "Top surface": 23677.31,
+        "Support": 19025.0,
+        "Support transition": 216.12
+      },
+      "longest_bridge_segment_mm": 19.79,
+      "sha256": "312f036bc8f6a30e3a6f7a45551f740703de89bd32dc7e75a7a1d8b651aee5d7"
+    },
+    {
+      "plate": "04_R2",
+      "objects": 2,
+      "layers": 696,
+      "estimated_seconds": 11460,
+      "estimated_grams": 108.52,
+      "support": true,
+      "support_bounds_mm": [
+        [
+          62.22,
+          60.991
+        ],
+        [
+          193.78,
+          81.47
+        ]
+      ],
+      "feature_path_length_mm": {
+        "Brim": 8188.79,
+        "Outer wall": 223036.58,
+        "Inner wall": 438999.47,
+        "Bottom surface": 14681.05,
+        "Support interface": 1310.55,
+        "Gap infill": 9211.5,
+        "Internal solid infill": 118157.83,
+        "Overhang wall": 216.47,
+        "Sparse infill": 217393.54,
+        "Floating vertical shell": 6080.56,
+        "Bridge": 17382.07,
+        "Top surface": 23661.56,
+        "Support": 29329.88,
+        "Support transition": 326.38
+      },
+      "longest_bridge_segment_mm": 19.79,
+      "sha256": "0b3f38978f66b46c057b4698460e1c1d71b857ed0ccabec3804dcef5efb30462"
+    },
+    {
+      "plate": "05_LS",
+      "objects": 2,
+      "layers": 955,
+      "estimated_seconds": 18107,
+      "estimated_grams": 180.49,
+      "support": true,
+      "support_bounds_mm": [
+        [
+          38.811,
+          45.991
+        ],
+        [
+          217.19,
+          66.3
+        ]
+      ],
+      "feature_path_length_mm": {
+        "Brim": 10629.01,
+        "Outer wall": 370186.08,
+        "Inner wall": 729347.75,
+        "Bottom surface": 24468.09,
+        "Support interface": 895.92,
+        "Gap infill": 11262.18,
+        "Internal solid infill": 192869.28,
+        "Overhang wall": 189.53,
+        "Sparse infill": 409295.22,
+        "Floating vertical shell": 9064.0,
+        "Bridge": 27385.59,
+        "Top surface": 38644.13,
+        "Support": 26299.28,
+        "Support transition": 226.79
+      },
+      "longest_bridge_segment_mm": 23.53,
+      "sha256": "e52e95b02d26ea84e12afc11f39b57bc376bef8f2827cab492b0376ba4014f04"
+    },
+    {
+      "plate": "06_RS",
+      "objects": 2,
+      "layers": 696,
+      "estimated_seconds": 13796,
+      "estimated_grams": 134.93,
+      "support": true,
+      "support_bounds_mm": [
+        [
+          38.811,
+          60.991
+        ],
+        [
+          217.19,
+          81.3
+        ]
+      ],
+      "feature_path_length_mm": {
+        "Brim": 10029.0,
+        "Outer wall": 276908.64,
+        "Inner wall": 545955.7,
+        "Bottom surface": 20135.95,
+        "Support interface": 939.97,
+        "Internal solid infill": 160019.54,
+        "Gap infill": 8552.96,
+        "Overhang wall": 189.53,
+        "Sparse infill": 278944.36,
+        "Floating vertical shell": 7388.88,
+        "Bridge": 23122.06,
+        "Top surface": 31719.78,
+        "Support": 19007.92,
+        "Support transition": 226.79
+      },
+      "longest_bridge_segment_mm": 23.23,
+      "sha256": "1fa43bf3cf19e3a9a351765a8bc562c40c172df88702f8464bb6a37b5a582f4e"
+    }
+  ]
+}

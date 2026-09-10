@@ -1,0 +1,74 @@
+[
+  {
+    "plate": "00_Fit_Test",
+    "layer_count": 108,
+    "first_layer_objects": 4,
+    "expected_objects": 4,
+    "out_of_bed_layers": [],
+    "suspect_layers": []
+  },
+  {
+    "plate": "01_L1",
+    "layer_count": 100,
+    "first_layer_objects": 2,
+    "expected_objects": 2,
+    "out_of_bed_layers": [],
+    "suspect_layers": []
+  },
+  {
+    "plate": "02_L2",
+    "layer_count": 100,
+    "first_layer_objects": 2,
+    "expected_objects": 2,
+    "out_of_bed_layers": [],
+    "suspect_layers": []
+  },
+  {
+    "plate": "03_R1",
+    "layer_count": 100,
+    "first_layer_objects": 2,
+    "expected_objects": 2,
+    "out_of_bed_layers": [],
+    "suspect_layers": []
+  },
+  {
+    "plate": "04_R2",
+    "layer_count": 100,
+    "first_layer_objects": 2,
+    "expected_objects": 2,
+    "out_of_bed_layers": [],
+    "suspect_layers": []
+  },
+  {
+    "plate": "05_LS",
+    "layer_count": 100,
+    "first_layer_objects": 2,
+    "expected_objects": 2,
+    "out_of_bed_layers": [],
+    "suspect_layers": []
+  },
+  {
+    "plate": "06_RS",
+    "layer_count": 100,
+    "first_layer_objects": 2,
+    "expected_objects": 2,
+    "out_of_bed_layers": [],
+    "suspect_layers": []
+  },
+  {
+    "plate": "07_UP",
+    "layer_count": 100,
+    "first_layer_objects": 2,
+    "expected_objects": 2,
+    "out_of_bed_layers": [],
+    "suspect_layers": []
+  },
+  {
+    "plate": "08_Frames_Feet",
+    "layer_count": 112,
+    "first_layer_objects": 26,
+    "expected_objects": 26,
+    "out_of_bed_layers": [],
+    "suspect_layers": []
+  }
+]

@@ -1,0 +1,14 @@
+# macOS and Python caches
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Local editor settings and intermediate recovery archives
+.vscode/
+models/*/checkpoints/
+
+# Local credentials and temporary execution output
+.env
+.env.*
+!.env.example
+*.log

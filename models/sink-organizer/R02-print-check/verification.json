@@ -1,0 +1,399 @@
+{
+  "source_revision": "R02",
+  "slicer": "Bambu Studio 02.08.02.61",
+  "printer": "Bambu Lab X2D 0.4 nozzle",
+  "filament": "Bambu PLA Basic @BBL X2D 0.4 nozzle",
+  "plate": "Bambu Cool Plate SuperTack",
+  "production_pieces": 40,
+  "production_plates": 8,
+  "fit_test_plates": 1,
+  "all_layers_audited": 920,
+  "geometry_roundtrip": true,
+  "no_mesh_repairs": true,
+  "all_objects_on_bed": true,
+  "no_overlapping_part_bounds": true,
+  "no_extrusion_outside_256_square": true,
+  "main_extruder_only": true,
+  "physically_tested": false,
+  "production_estimated_seconds": 79966,
+  "production_estimated_grams": 916.76,
+  "path_audit_scope": "All model layers checked against mesh cross-sections: no missing polygon components, no uncovered internal perimeter band >1mm², no uncovered four-layer top-skin core >1mm². Raster 0.2mm with extrusion-width tolerance. Not microscopic pore/leak detection or a physical strength/adhesion test.",
+  "warnings": {
+    "resolved": "ZFiller clipping diagnostics removed by disabling detect_floating_vertical_shell; all final layers rechecked.",
+    "remaining": "Vendor X2D end-gcode uses T65279/T65535; bundled GCodeProcessor rejects these reserved values in its estimator. These commands exactly originate from the official X2D template, not model toolpaths. Preserved without modification. GUI loads sliced previews. No physical end-sequence test.",
+    "informational": "CLI mode/version and absent geometry color metadata; PLA preset supplies displayed color."
+  },
+  "plates": [
+    {
+      "plate": "00_Fit_Test",
+      "objects": 4,
+      "layers": 108,
+      "estimated_seconds": 1363,
+      "estimated_grams": 8.82,
+      "support": false,
+      "support_bounds_mm": null,
+      "feature_path_length_mm": {
+        "Inner wall": 24159.42,
+        "Outer wall": 13083.9,
+        "Bottom surface": 2409.91,
+        "Internal solid infill": 23988.2,
+        "Sparse infill": 13894.16,
+        "Bridge": 4545.42,
+        "Floating vertical shell": 1284.89,
+        "Top surface": 4925.78
+      },
+      "longest_bridge_segment_mm": 29.59,
+      "sha256": "8c1d6c83ab40e8ec2ecc384ff2e68f4ef0f0f2abb54325ac65b1ff24ea6e0cb0"
+    },
+    {
+      "plate": "01_L1",
+      "objects": 2,
+      "layers": 100,
+      "estimated_seconds": 9154,
+      "estimated_grams": 105.32,
+      "support": false,
+      "support_bounds_mm": null,
+      "feature_path_length_mm": {
+        "Inner wall": 220597.92,
+        "Outer wall": 112225.74,
+        "Bottom surface": 40628.09,
+        "Internal solid infill": 328948.31,
+        "Gap infill": 15039.03,
+        "Sparse infill": 192741.86,
+        "Bridge": 56225.11,
+        "Floating vertical shell": 7317.31,
+        "Top surface": 68195.64
+      },
+      "longest_bridge_segment_mm": 23.56,
+      "sha256": "f54143a4ea58c58f4d4143fc24912409664e6bcd999592c98d64b918cc33c190"
+    },
+    {
+      "plate": "02_L2",
+      "objects": 2,
+      "layers": 100,
+      "estimated_seconds": 11112,
+      "estimated_grams": 127.83,
+      "support": false,
+      "support_bounds_mm": null,
+      "feature_path_length_mm": {
+        "Inner wall": 261835.75,
+        "Outer wall": 133225.51,
+        "Bottom surface": 50176.97,
+        "Internal solid infill": 404872.79,
+        "Gap infill": 16752.63,
+        "Sparse infill": 235376.88,
+        "Bridge": 69080.3,
+        "Floating vertical shell": 9082.81,
+        "Top surface": 84031.06
+      },
+      "longest_bridge_segment_mm": 21.74,
+      "sha256": "2960e80bc0473458b81b9593b9b19bcc617e7ee375f1ceeb40553b739d8e7dbe"
+    },
+    {
+      "plate": "03_R1",
+      "objects": 2,
+      "layers": 100,
+      "estimated_seconds": 7881,
+      "estimated_grams": 89.41,
+      "support": false,
+      "support_bounds_mm": null,
+      "feature_path_length_mm": {
+        "Inner wall": 196675.16,
+        "Outer wall": 100046.12,
+        "Bottom surface": 33301.23,
+        "Internal solid infill": 272010.56,
+        "Gap infill": 13870.44,
+        "Sparse infill": 158843.84,
+        "Bridge": 46719.24,
+        "Floating vertical shell": 6256.18,
+        "Top surface": 56696.78
+      },
+      "longest_bridge_segment_mm": 18.77,
+      "sha256": "1122d2974747a0a6ef20af5d83cef3bca8dc042239165be35b606590e81b014b"
+    },
+    {
+      "plate": "04_R2",
+      "objects": 2,
+      "layers": 100,
+      "estimated_seconds": 7924,
+      "estimated_grams": 89.76,
+      "support": false,
+      "support_bounds_mm": null,
+      "feature_path_length_mm": {
+        "Inner wall": 198587.92,
+        "Outer wall": 101248.02,
+        "Bottom surface": 33301.8,
+        "Internal solid infill": 272052.5,
+        "Gap infill": 14374.38,
+        "Sparse infill": 158289.45,
+        "Bridge": 46936.68,
+        "Floating vertical shell": 6270.85,
+        "Top surface": 56740.88
+      },
+      "longest_bridge_segment_mm": 18.77,
+      "sha256": "37be541bda2ba40b9663a5a2890ab24e264329b1c883aee6b2c8a09fef8ff2be"
+    },
+    {
+      "plate": "05_LS",
+      "objects": 2,
+      "layers": 100,
+      "estimated_seconds": 13099,
+      "estimated_grams": 155.01,
+      "support": false,
+      "support_bounds_mm": null,
+      "feature_path_length_mm": {
+        "Inner wall": 295002.68,
+        "Outer wall": 150601.56,
+        "Bottom surface": 61760.14,
+        "Gap infill": 16984.07,
+        "Internal solid infill": 497787.83,
+        "Sparse infill": 319547.58,
+        "Bridge": 82713.98,
+        "Floating vertical shell": 8265.62,
+        "Top surface": 102008.84
+      },
+      "longest_bridge_segment_mm": 23.53,
+      "sha256": "15b3ca31a899e02f605c7f285af8054e2be9604f2444d5926472bcd03b788bf8"
+    },
+    {
+      "plate": "06_RS",
+      "objects": 2,
+      "layers": 100,
+      "estimated_seconds": 10163,
+      "estimated_grams": 116.88,
+      "support": false,
+      "support_bounds_mm": null,
+      "feature_path_length_mm": {
+        "Inner wall": 241689.0,
+        "Outer wall": 122965.85,
+        "Bottom surface": 45765.26,
+        "Gap infill": 15943.65,
+        "Internal solid infill": 369727.31,
+        "Sparse infill": 212564.67,
+        "Bridge": 62473.72,
+        "Floating vertical shell": 8313.37,
+        "Top surface": 76623.88
+      },
+      "longest_bridge_segment_mm": 23.23,
+      "sha256": "95e5a654e88f24b1ae70c5468e87286a9a00a8a3672bdf225294f3bf45310e29"
+    },
+    {
+      "plate": "07_UP",
+      "objects": 2,
+      "layers": 100,
+      "estimated_seconds": 10133,
+      "estimated_grams": 116.79,
+      "support": false,
+      "support_bounds_mm": null,
+      "feature_path_length_mm": {
+        "Inner wall": 239732.38,
+        "Outer wall": 122533.47,
+        "Bottom surface": 46415.07,
+        "Internal solid infill": 369604.22,
+        "Gap infill": 15968.81,
+        "Sparse infill": 213643.09,
+        "Bridge": 62533.22,
+        "Floating vertical shell": 8282.44,
+        "Top surface": 76622.18
+      },
+      "longest_bridge_segment_mm": 23.23,
+      "sha256": "a82dd334e39a0df7b0ede05cc171f89fe844e89ca68c37b088327978b7076cb2"
+    },
+    {
+      "plate": "08_Frames_Feet",
+      "objects": 26,
+      "layers": 112,
+      "estimated_seconds": 10500,
+      "estimated_grams": 115.76,
+      "support": true,
+      "support_bounds_mm": [
+        [
+          35.783,
+          142.369
+        ],
+        [
+          220.218,
+          145.484
+        ]
+      ],
+      "feature_path_length_mm": {
+        "Inner wall": 404841.23,
+        "Outer wall": 217860.8,
+        "Bottom surface": 21537.64,
+        "Support": 526.59,
+        "Internal solid infill": 152301.04,
+        "Support transition": 83.82,
+        "Sparse infill": 278783.37,
+        "Support interface": 131.41,
+        "Overhang wall": 62.06,
+        "Bridge": 25434.04,
+        "Floating vertical shell": 26953.0,
+        "Top surface": 35663.77,
+        "Gap infill": 2.79
+      },
+      "longest_bridge_segment_mm": 20.56,
+      "sha256": "c578e2e6fa67daf41391541a394847985aa86d7973167ca2374517f42ba448d4"
+    }
+  ],
+  "gui_reopen_check": {
+    "plate": "02_L2",
+    "custom_process_preserved": true,
+    "per_plate_supertack_preserved": true,
+    "gui_estimated_grams": 127.83,
+    "gui_estimated_time_display": "3h5m",
+    "matches_cli_estimate": true
+  },
+  "process": {
+    "layer_height_mm": 0.2,
+    "wall_loops": 3,
+    "bottom_shell_layers": 4,
+    "top_shell_layers": 5,
+    "sparse_infill_pattern": "grid",
+    "sparse_infill_density": "15%",
+    "detect_floating_vertical_shell": false,
+    "bridge_angle": "automatic",
+    "temperature_c": "220 nozzle / 40 SuperTack"
+  },
+  "bridge_audit": {
+    "scope": "Sampling bridge paths at 0.1mm against extrusion footprints within 0.4mm below; raster 0.2mm. Indicative air-gap check, not bridge sag or adhesion prediction.",
+    "plates": [
+      {
+        "plate": "00_Fit_Test",
+        "largest_sampled_unsupported_bridge_run_mm": 8.27,
+        "location": [
+          2.0,
+          [
+            110.219,
+            122.705
+          ],
+          [
+            110.219,
+            133.295
+          ]
+        ]
+      },
+      {
+        "plate": "01_L1",
+        "largest_sampled_unsupported_bridge_run_mm": 10.42,
+        "location": [
+          2.0,
+          [
+            191.705,
+            113.718
+          ],
+          [
+            202.295,
+            104.371
+          ]
+        ]
+      },
+      {
+        "plate": "02_L2",
+        "largest_sampled_unsupported_bridge_run_mm": 8.35,
+        "location": [
+          2.0,
+          [
+            34.705,
+            46.995
+          ],
+          [
+            45.295,
+            42.608
+          ]
+        ]
+      },
+      {
+        "plate": "03_R1",
+        "largest_sampled_unsupported_bridge_run_mm": 10.17,
+        "location": [
+          2.0,
+          [
+            76.361,
+            114.595
+          ],
+          [
+            69.019,
+            104.005
+          ]
+        ]
+      },
+      {
+        "plate": "04_R2",
+        "largest_sampled_unsupported_bridge_run_mm": 10.17,
+        "location": [
+          2.0,
+          [
+            74.981,
+            114.595
+          ],
+          [
+            67.639,
+            104.005
+          ]
+        ]
+      },
+      {
+        "plate": "05_LS",
+        "largest_sampled_unsupported_bridge_run_mm": 9.94,
+        "location": [
+          2.0,
+          [
+            51.366,
+            13.005
+          ],
+          [
+            44.83,
+            23.595
+          ]
+        ]
+      },
+      {
+        "plate": "06_RS",
+        "largest_sampled_unsupported_bridge_run_mm": 8.75,
+        "location": [
+          2.0,
+          [
+            121.595,
+            206.472
+          ],
+          [
+            111.005,
+            210.859
+          ]
+        ]
+      },
+      {
+        "plate": "07_UP",
+        "largest_sampled_unsupported_bridge_run_mm": 5.0,
+        "location": [
+          2.0,
+          [
+            45.795,
+            117.174
+          ],
+          [
+            39.342,
+            116.38
+          ]
+        ]
+      },
+      {
+        "plate": "08_Frames_Feet",
+        "largest_sampled_unsupported_bridge_run_mm": 4.91,
+        "location": [
+          7.2,
+          [
+            212.379,
+            48.196
+          ],
+          [
+            221.621,
+            39.011
+          ]
+        ]
+      }
+    ]
+  },
+  "max_sampled_unsupported_bridge_mm": 10.42,
+  "source_f3d_sha256": "e5ce01377f86c69d4c6ba0d1dfc0f31bd4bbd2c949b0d582e912f87a517ecba6"
+}
