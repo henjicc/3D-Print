@@ -1,8 +1,0 @@
-{
-  "autodeskProduct": "Fusion",
-  "type": "script",
-  "author": "Local project",
-  "description": {"": "Build and inspect the current sink organizer prototype. Runs only on explicit invocation."},
-  "version": "1.0",
-  "supportedOS": "mac"
-}

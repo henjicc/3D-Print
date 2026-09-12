@@ -3,9 +3,11 @@
 __pycache__/
 *.py[cod]
 
-# Local editor settings and intermediate recovery archives
+# Local editor settings
 .vscode/
-models/*/checkpoints/
+
+# Models and all related assets stay local
+/models/
 
 # Local credentials and temporary execution output
 .env
