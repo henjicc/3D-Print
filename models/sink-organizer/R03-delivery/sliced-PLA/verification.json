@@ -1,0 +1,41 @@
+{
+  "date": "2026-09-12",
+  "plate": "03_R1",
+  "material": "Bambu PLA Basic",
+  "actual_mapping": "AMS A4 white PLA",
+  "printer": "X2D 0.4 mm standard primary",
+  "bed": "SuperTack",
+  "nozzle_C": 220,
+  "bed_C": 40,
+  "estimated_seconds": 9270,
+  "estimated_grams": 109.38,
+  "path_audit": [
+    {
+      "plate": "03_R1",
+      "layer_count": 696,
+      "first_layer_objects": 2,
+      "expected_objects": 2,
+      "out_of_bed_layers": [],
+      "suspect_layers": [
+        {
+          "z": 87.0,
+          "object": "R1_Integrated",
+          "lost_components_mm2": [],
+          "uncovered_perimeter_mm2": 8.8,
+          "uncovered_top_skin_mm2": 220.0
+        }
+      ]
+    }
+  ],
+  "transition_review": [
+    {
+      "plate": "03_R1",
+      "z": 87.0,
+      "review": "Compare same and preceding model layer at abrupt section transitions",
+      "uncovered_perimeter_mm2": 0.0,
+      "uncovered_skin_mm2": 0.0
+    }
+  ],
+  "limitation": "Z87 transition has preceding-layer continuous top skin; approximately one model layer endpoint quantization remains. No physical fit, drainage or strength results yet. GUI estimate matches CLI. Preview green is preset display color; actual material mapped to white A4.",
+  "sha256": "1c1d8f7a79c20fb2714db800c0054bc242253ae62577ebcc60ee7bad45818fc1"
+}
